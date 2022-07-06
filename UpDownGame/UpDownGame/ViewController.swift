@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        slider.setThumbImage(#imageLiteral(resourceName: "yagom_symbol"), for: .normal)
     }
 
 //  이벤트에 반응하는 액션
