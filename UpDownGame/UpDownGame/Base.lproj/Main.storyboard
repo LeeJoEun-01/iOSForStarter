@@ -62,6 +62,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large" weight="bold"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="phD-fx-Voj" kind="presentation" modalTransitionStyle="crossDissolve" id="NsF-1B-ax1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBf-yT-sXw">
                                 <rect key="frame" x="782" y="30" width="48" height="31"/>
@@ -123,18 +126,77 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="276.5625" y="2.8985507246376816"/>
+            <point key="canvasLocation" x="202" y="3"/>
+        </scene>
+        <!--Credit View Controller-->
+        <scene sceneID="eUn-zh-6gI">
+            <objects>
+                <viewController id="phD-fx-Voj" customClass="CreditViewController" customModule="UpDownGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qZW-cX-Xw0">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_8452" translatesAutoresizingMaskIntoConstraints="NO" id="H6j-1j-gt3">
+                                <rect key="frame" x="84" y="85" width="223" height="223"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="223" id="KAV-oh-NG7"/>
+                                    <constraint firstAttribute="width" constant="223" id="roW-gd-8h6"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9M2-bz-GEt">
+                                <rect key="frame" x="354" y="80" width="486" height="228"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Hello World~! I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ab-0y-XhD">
+                                <rect key="frame" x="32" y="32" width="46" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="xmark.app" catalog="system"/>
+                                <connections>
+                                    <action selector="touchUpDismissButton:" destination="phD-fx-Voj" eventType="touchUpInside" id="fJd-Tl-woV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FCG-Ig-S1E"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FCG-Ig-S1E" firstAttribute="bottom" secondItem="9M2-bz-GEt" secondAttribute="bottom" constant="85" id="2uV-e4-cKI"/>
+                            <constraint firstItem="9M2-bz-GEt" firstAttribute="leading" secondItem="H6j-1j-gt3" secondAttribute="trailing" constant="47" id="A7q-vE-z94"/>
+                            <constraint firstItem="H6j-1j-gt3" firstAttribute="top" secondItem="FCG-Ig-S1E" secondAttribute="top" constant="85" id="PQS-fp-wVh"/>
+                            <constraint firstItem="9M2-bz-GEt" firstAttribute="top" secondItem="FCG-Ig-S1E" secondAttribute="top" constant="80" id="Sr1-Ac-VOP"/>
+                            <constraint firstItem="6ab-0y-XhD" firstAttribute="top" secondItem="FCG-Ig-S1E" secondAttribute="top" constant="32" id="csP-L6-qUL"/>
+                            <constraint firstItem="6ab-0y-XhD" firstAttribute="leading" secondItem="qZW-cX-Xw0" secondAttribute="leading" constant="32" id="o99-Jq-Gft"/>
+                            <constraint firstItem="H6j-1j-gt3" firstAttribute="leading" secondItem="FCG-Ig-S1E" secondAttribute="leading" constant="40" id="pnX-9x-Qo4"/>
+                            <constraint firstItem="FCG-Ig-S1E" firstAttribute="trailing" secondItem="9M2-bz-GEt" secondAttribute="trailing" constant="12" id="vyA-Fa-U0M"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aBg-8i-YJS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912.72321428571422" y="2.8985507246376816"/>
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_8452" width="1242" height="1234"/>
         <image name="checkmark.seal.fill" catalog="system" width="128" height="128"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="memories" catalog="system" width="128" height="110"/>
+        <image name="xmark.app" catalog="system" width="128" height="114"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="placeholderTextColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02E18C5728803C3E00DC5A42 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E18C5628803C3E00DC5A42 /* CreditViewController.swift */; };
 		02EA838A28700CAF00EB19FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA838928700CAF00EB19FB /* AppDelegate.swift */; };
 		02EA838C28700CAF00EB19FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA838B28700CAF00EB19FB /* SceneDelegate.swift */; };
 		02EA838E28700CAF00EB19FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA838D28700CAF00EB19FB /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02E18C5628803C3E00DC5A42 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 		02EA838628700CAF00EB19FB /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EA838928700CAF00EB19FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02EA838B28700CAF00EB19FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		02EA838828700CAF00EB19FB /* UpDownGame */ = {
 			isa = PBXGroup;
 			children = (
+				02E18C5628803C3E00DC5A42 /* CreditViewController.swift */,
 				02EA838928700CAF00EB19FB /* AppDelegate.swift */,
 				02EA838B28700CAF00EB19FB /* SceneDelegate.swift */,
 				02EA838D28700CAF00EB19FB /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				02EA838E28700CAF00EB19FB /* ViewController.swift in Sources */,
 				02EA838A28700CAF00EB19FB /* AppDelegate.swift in Sources */,
 				02EA838C28700CAF00EB19FB /* SceneDelegate.swift in Sources */,
+				02E18C5728803C3E00DC5A42 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
