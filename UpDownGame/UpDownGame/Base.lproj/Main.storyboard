@@ -146,7 +146,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9M2-bz-GEt">
                                 <rect key="frame" x="354" y="80" width="486" height="228"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Hello World~! I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail</mutableString>
+                                <string key="text">Hello World~! I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail  Hello World~!  I'm joeun!  My Contacts: https://google.com https://blog.joeun.net  main@me.mail</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
