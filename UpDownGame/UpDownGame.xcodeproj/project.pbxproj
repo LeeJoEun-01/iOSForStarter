@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022808EC2898F26F000F0C65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 022808EB2898F26F000F0C65 /* GoogleService-Info.plist */; };
+		022808EF2898F3A0000F0C65 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 022808EE2898F3A0000F0C65 /* FirebaseAnalytics */; };
 		02E18C5728803C3E00DC5A42 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E18C5628803C3E00DC5A42 /* CreditViewController.swift */; };
 		02EA838A28700CAF00EB19FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA838928700CAF00EB19FB /* AppDelegate.swift */; };
 		02EA838C28700CAF00EB19FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA838B28700CAF00EB19FB /* SceneDelegate.swift */; };
@@ -17,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022808EB2898F26F000F0C65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		02E18C5628803C3E00DC5A42 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 		02EA838628700CAF00EB19FB /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EA838928700CAF00EB19FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022808EF2898F3A0000F0C65 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +62,7 @@
 		02EA838828700CAF00EB19FB /* UpDownGame */ = {
 			isa = PBXGroup;
 			children = (
+				022808EB2898F26F000F0C65 /* GoogleService-Info.plist */,
 				02E18C5628803C3E00DC5A42 /* CreditViewController.swift */,
 				02EA838928700CAF00EB19FB /* AppDelegate.swift */,
 				02EA838B28700CAF00EB19FB /* SceneDelegate.swift */,
@@ -86,6 +91,9 @@
 			dependencies = (
 			);
 			name = UpDownGame;
+			packageProductDependencies = (
+				022808EE2898F3A0000F0C65 /* FirebaseAnalytics */,
+			);
 			productName = UpDownGame;
 			productReference = 02EA838628700CAF00EB19FB /* UpDownGame.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 02EA837D28700CAF00EB19FB;
+			packageReferences = (
+				022808ED2898F3A0000F0C65 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 02EA838728700CAF00EB19FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02EA839628700CB200EB19FB /* LaunchScreen.storyboard in Resources */,
+				022808EC2898F26F000F0C65 /* GoogleService-Info.plist in Resources */,
 				02EA839328700CB200EB19FB /* Assets.xcassets in Resources */,
 				02EA839128700CAF00EB19FB /* Main.storyboard in Resources */,
 			);
@@ -365,6 +377,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		022808ED2898F3A0000F0C65 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		022808EE2898F3A0000F0C65 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 022808ED2898F3A0000F0C65 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 02EA837E28700CAF00EB19FB /* Project object */;
 }

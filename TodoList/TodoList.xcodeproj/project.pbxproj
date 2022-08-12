@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023234A32896745D00BF4834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023234A22896745D00BF4834 /* ViewController.swift */; };
 		0282A62728928DC600740D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282A62628928DC600740D09 /* AppDelegate.swift */; };
 		0282A62928928DC600740D09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282A62828928DC600740D09 /* SceneDelegate.swift */; };
 		0282A62B28928DC600740D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282A62A28928DC600740D09 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023234A22896745D00BF4834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0282A62328928DC600740D09 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0282A62628928DC600740D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0282A62828928DC600740D09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		0282A61A28928DC600740D09 = {
 			isa = PBXGroup;
 			children = (
+				023234A22896745D00BF4834 /* ViewController.swift */,
 				0282A62528928DC600740D09 /* TodoList */,
 				0282A62428928DC600740D09 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				0282A62B28928DC600740D09 /* ViewController.swift in Sources */,
 				0282A62728928DC600740D09 /* AppDelegate.swift in Sources */,
+				023234A32896745D00BF4834 /* ViewController.swift in Sources */,
 				0282A62928928DC600740D09 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP5RUYUBZY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP5RUYUBZY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

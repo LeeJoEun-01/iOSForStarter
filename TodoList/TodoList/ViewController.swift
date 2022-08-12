@@ -13,7 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+//    var isCheck: Bool = false {
+//        didSet{
+//            let imageName = isCheck ? "checkmark.circle" : "checkmark.circle.fill"
+//            checkBoxButton.setImage(UIImage(systemName: imageName), for: .normal)
+//        }
+//    }
 }
 
